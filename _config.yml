@@ -6,7 +6,7 @@ email: huxpro@gmail.com
 description: "我就试试"
 keyword: "Unity, Game, Indie Game, Portfolio"
 url: "https://caterpillar.github.io" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/caterpillar.github.io" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
