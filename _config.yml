@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: "我就试试"
 keyword: "Unity, Game, Indie Game, Portfolio"
-url: "https://caterpillar.github.io" # your host, for absolute URL
-baseurl: "/caterpillar.github.io" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://cathy0915-byte.github.io"
+baseurl: "/caterpillar.github.io"'
 
 # Publish posts or collection documents with a future date.
 future: true
