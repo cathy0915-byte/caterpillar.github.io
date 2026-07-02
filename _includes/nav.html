@@ -22,14 +22,21 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="{{ site.baseurl }}/">Home</a>
-                        </li>
-                        {% for page in site.pages %}
-                        {% if page.title and page.hide-in-nav != true %}
-                        <li>
-                            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li>
+                                <a href="{{ '/' | relative_url }}">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="{{ '/games/game01/' | relative_url }}">Game 01</a>
+                            </li>
+
+                            <li>
+                                <a href="{{ '/about/' | relative_url }}">About</a>
+                            </li>
+
+                        </ul>
                         <li class="search-icon">
                             <a href="javascript:void(0)">
                                 <i class="fa fa-search"></i>
