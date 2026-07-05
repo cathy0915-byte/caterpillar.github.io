@@ -1,38 +1,52 @@
 ---
 layout: portfolio
-title: Home
+title: Caterpillar World
 ---
 
-<h1>锚锚虫生态保护园区</h1>
+<header>
 
-<p>
-    你好。
-</p>
+    <h1>锚锚虫生态保护园区</h1>
 
-<hr>
+    <p>
+        你好。
+    </p>
 
-<h2>Game 01</h2>
+</header>
 
-<p>
-    游戏简介
-</p>
+<main>
 
-<a href="{{ '/games/game01/' | relative_url }}">
+    <div class="game-card">
 
-    查看详情 →
+        <h2>Game 01</h2>
 
-</a>
+        <img src="{{ '/assets/images/game01.jpg' | relative_url }}" alt="Game01">
 
-<hr>
+        <p>
+            这里以后填写游戏简介。
+        </p>
 
-<h2>Game 02</h2>
+        <a class="button"
+           href="{{ '/games/game01/' | relative_url }}">
+            查看详情
+        </a>
 
-<p>
-    游戏简介
-</p>
+    </div>
 
-<a href="{{ '/games/game02/' | relative_url }}">
+    <div class="game-card">
 
-    查看详情 →
+        <h2>Game 02</h2>
 
-</a>
+        <img src="{{ '/assets/images/game02.jpg' | relative_url }}" alt="Game02">
+
+        <p>
+            这里以后填写游戏简介。
+        </p>
+
+        <a class="button"
+           href="#">
+            敬请期待
+        </a>
+
+    </div>
+
+</main>
