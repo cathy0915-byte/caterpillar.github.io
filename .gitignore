@@ -11,3 +11,9 @@ node_modules
 .jekyll-cache
 */.DS_Store
 */*/.DS_Store
+.vs/
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
